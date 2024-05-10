@@ -1,0 +1,97 @@
+:root{
+    --accent-color: #46A358;
+    --secondary-color:#3D3D3D;
+    --main-color:#FFFFFF;
+    --bg-secondary-color: rgba(247, 248, 245, 0.75);
+
+    --font-sm:1rem;
+    --font-xl:1.25rem;
+    --font-3xl:1.875rem;
+    --content-width:1202px;
+}
+
+body {
+    font-family: "Cera Pro DEMO", sans-serif;
+    font-weight: normal;
+    font-size: var(--font-sm);
+    font-style: normal;
+}
+.Catalog{
+    max-width: var(--content-width);
+    margin:138px  auto;
+}
+.container{
+}
+.top__bloc{
+    width: 586px;
+    height: 302px;
+    background-color: var(--bg-secondary-color);
+    margin:  auto 7px;
+}
+
+.text{
+
+    width: 586px;
+    height: 250px;
+    text-align: right;
+}
+.name{
+    font-size: var(--font-xl);
+    font-weight:900;
+}
+
+.top{
+    display: flex;
+}
+img {
+    float: left;
+}
+
+p{
+    font-weight:100;
+    line-height: 1.5;
+}
+.button {
+    height:40px;
+    border-style:solid;
+    width:150px;
+    background-color: var(--accent-color);
+    cursor:pointer;
+    color: azure;
+    border-radius: 6px;
+    left: 50%;
+    transform: translate(0%, 60px);
+}
+h4{
+    font-size:var(--font-3xl);
+    font-weight:700;
+}
+.posts{
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 0 35px 0;
+}
+.price{
+    width: 268px;
+    background-color: var(--bg-secondary-color);
+
+}
+.data{
+    color: var(--accent-color);
+    font-weight:400;}
+
+.buy{
+    width: 95px;
+    height: 18px;
+    background-color: var(--bg-secondary-color);
+}
+.buy_2{
+    color: var(--accent-color);
+}
+.Catalog_price{
+    display: flex;
+    max-width: var(--content-width);
+    margin:0  auto;
+    justify-content:space-between;
+}
+
